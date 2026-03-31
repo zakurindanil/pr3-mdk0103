@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
+        android:background="@drawable/button_radius"
         android:text="00:00:00:0000"
         android:textColor="#FDFDFD"
         android:textSize="36sp"
@@ -20,12 +21,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="100dp"
-        android:background=""
+        android:background="@drawable/button_radius"
         android:backgroundTint="#FFFFFF"
         android:onClick="onStart"
         android:text="начать"
@@ -35,11 +36,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_timer" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="50dp"
-        android:background=""
+        android:background="@drawable/button_radius"
         android:backgroundTint="#FFFFFF"
         android:onClick="onClear"
         android:text="сброс"
